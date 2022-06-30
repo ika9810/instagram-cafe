@@ -1,6 +1,12 @@
 /***** MAIN SETTING ******/
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body, html {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'BMJUA', sans-serif;
     height: 100%;
     margin: 0;
     user-select : none;
@@ -10,7 +16,7 @@ h2{
     margin: 0;
     text-align: center;
     font-size: 4vw;
-    font-family: Montserrat, sans-serif;
+    font-family: 'BMJUA', sans-serif;
 }
 
 a{
@@ -427,7 +433,7 @@ display: flex;
 
     .study-card body {
         background-color: grey;
-        font-family: Montserrat, sans-serif;
+        font-family: 'BMJUA', sans-serif;
     }
 
 
@@ -515,8 +521,20 @@ display: flex;
         margin: 0 7px 7px 0;
         padding: 7px;
     }
-
-
+#about_text{
+    background-color: #8d5185;
+    background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#title_text{
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    /* background-color: #8d5185;
+    background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%); */
+    color: transparent;
+    -webkit-background-clip: text;
+}
 
 #study-title {
     background-color: #222222;
@@ -524,7 +542,7 @@ display: flex;
     text-align: center;
     color: whitesmoke;
     padding-bottom: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: 'BMJUA', sans-serif;
     margin-bottom: 5%;
 }
 
